@@ -5,7 +5,8 @@
 #include "include/util.h"
 #include "include/slgro.h"
 
-void die(int ret, const char* fmt, ...)
+void die
+(int ret, const char* fmt, ...)
 {
 	va_list ap;
 
@@ -21,7 +22,8 @@ void die(int ret, const char* fmt, ...)
 	exit(ret);
 }
 
-void _log(FILE* fd, const char* fmt, ...)
+void _log
+(FILE* fd, const char* fmt, ...)
 {
 	va_list ap;
 
@@ -35,7 +37,8 @@ void _log(FILE* fd, const char* fmt, ...)
 	fflush(fd);
 }
 
-void sig_handler(int s)
+void sig_handler
+(int s)
 {
 	(void)s;
 

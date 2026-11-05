@@ -12,6 +12,8 @@ extern void kb_move_x(void* data, uint32_t time, uint32_t value, uint32_t state)
 extern void kb_move_y(void* data, uint32_t time, uint32_t value, uint32_t state);
 extern void kb_resize_width(void* data, uint32_t time, uint32_t value, uint32_t state);
 extern void kb_resize_height(void* data, uint32_t time, uint32_t value, uint32_t state);
+void snap_top_half(void*, uint32_t, uint32_t, uint32_t);
+void snap_bottom_half(void*, uint32_t, uint32_t, uint32_t);
 extern void snap_left_half(void* data, uint32_t time, uint32_t value, uint32_t state);
 extern void snap_right_half(void* data, uint32_t time, uint32_t value, uint32_t state);
 extern void center_window(void* data, uint32_t time, uint32_t value, uint32_t state);

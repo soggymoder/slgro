@@ -1,16 +1,23 @@
-border_active          = 0xff000000
-border_normal          = 0xff000000
-border_width           = 2
+border_active	= 0xff000000
+border_normal	= 0xff000000
+border_width	= 2
 
 -- for those who may want double borders, uncomment these !!
---border_active_outer    = 0xffffffff
---border_normal_outer    = 0xffffffff
---border_width_outher    = 2
+--border_active_outer	= 0xffffffff
+--border_normal_outer	= 0xffffffff
+--border_width_outher	= 2
 
-motion_throttle_hz     = 85
+motion_throttle_hz	= 85
 
 terminal    = "foot"
 menu        = "neumenu_run"
+
+autostart = {
+	-- i forgor who suggested me to add autostart, but, thank you for the suggestion, and, here it is ^^
+	
+	-- to add smth to autostart the syntax is just
+	-- "/home/dani/Prog/Scripts/verycoolscript.sh",
+}
 
 binds = {
     { mods="MOD4",       key="q",      action="spawn",          arg=terminal },
@@ -31,7 +38,9 @@ binds = {
     { mods="MOD4|SHFT",  key="Left",   action="resize_width",   arg=-25 },
     { mods="MOD4|SHFT",  key="Down",   action="resize_height",  arg=25 },
     { mods="MOD4|SHFT",  key="Up",     action="resize_height",  arg=-25 },
-    { mods="MOD4",       key="h",      action="snap_left" },
+		{ mods="MOD4",			 key="k",			 action="snap_top" },
+		{ mods="MOD4",			 key="j",			 action="snap_bottom" },
+		{ mods="MOD4",       key="h",      action="snap_left" },
     { mods="MOD4",       key="l",      action="snap_right" },
     { mods="MOD4|SHFT",  key="Return", action="quit" },
     { mods="MOD4",       key="1",      action="workspace_goto",   arg=1 },
