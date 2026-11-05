@@ -1,5 +1,4 @@
-Hai!! Im dani, and im here to teach you how to build slgro *super epic music starts playing* ouowowuwowuwwowowuw
--------------------------------------------------------------------------------------------------------
+Hallo im dani, here's how you build slgro wowie wowzers explosion emoji woahghGGHG WOAHHHHHHHHHHHHHHHHHHH
 
 dependencies
 ================ 
@@ -27,5 +26,4 @@ slgro reads it on startup, so, no need to recompile for config changes!!
 mkdir -p ~/.config/slgro
 cp config.lua ~/.config/slgro/config.lua
 
--------------------------------------------------------------------------------------------------------
-That's it, with this you can now use slgro!! wowie!! for any questions, contact me at @ouppy:4d2.org xP
+thats it enjoy ur slgro'ing :D
